@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+#header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10000;
+     
+}
+
+.logo{
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none; 
+    padding: 6px 15px;
+    color: white;
+    border-radius: 2px;
+}
+
+
+a:hover{
+    background: red;
+    color: white;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content{
+   position: absolute;
+   left: 140px;
+   top: 440px;
+    
+}
+
+.button span{
+    cursor: pointer;
+    position: relative;
+    color: white;
+    margin: 5px;
+    font-weight: 500;
+    
+}
+
+.btn_1{
+    background: red;
+    padding: 14px 24px;
+    border-radius: 0.5px;
+    transition: 0.2s;
+}
+.btn_1:hover{
+    opacity: 0.3;
+}
+
+.btn_2{
+   background: gray;
+    padding: 14px 24px;
+    border-radius: 0.5px;
+    transition: 0.2s;
+    
+}
+.btn_2:hover{
+    
+    background: white;
+    color: red;
+}
+
